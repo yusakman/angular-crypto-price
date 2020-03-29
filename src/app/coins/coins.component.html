@@ -1,0 +1,28 @@
+<div>
+  <table id="coins">
+    <thead>
+      <tr>
+        <th>
+          No
+        </th>
+        <th>
+          Name
+        </th>
+        <th>
+          Market Cap
+        </th>
+        <th>
+          Price
+        </th>
+      </tr>
+    </thead>
+    <tbody *ngFor="let coin of coins">
+      <tr>
+        <td>{{ coin.market_cap_rank }}</td>
+        <td>{{ coin.name }}</td>
+        <td>${{ coin.market_cap }}</td>
+        <td>${{ coin.current_price }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

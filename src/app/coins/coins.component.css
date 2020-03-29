@@ -1,0 +1,27 @@
+#coins {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#coins td,
+#coins th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#coins tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#coins tr:hover {
+  background-color: #ddd;
+}
+
+#coins th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #eee8d5;
+  color: #333;
+}
